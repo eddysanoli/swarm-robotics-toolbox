@@ -20,90 +20,11 @@
 3. [Guía de Uso](#guía-de-uso)
 4. [Hardware y Software](#hardware-y-software)
 5. [Swarm Robotics Toolbox](#swarm-robotics-toolbox)
-   - [Estructura de Programa](#estructura-de-programa)
-   - [Funciones](#funciones)
-     - [Evolución del Global Best](#evolución-del-global-best)
-     - [Análisis de Dispersión de Partículas](#análisis-de-dispersión-de-partículas)
-     - [Velocidad de Motores](#velocidad-de-motores)
-     - [Suavidad de Velocidades](#suavidad-de-velocidades)
-   - [Grabación de Videos / Frames](#grabación-de-videos--frames)
-6. [Demostración](#demostración)
-   - [Partículas Esquivando Obstáculo](#partículas-esquivando-obstáculo)
-   - [Polígono Personalizado](#polígono-personalizado)
 
 ## Estructura de Carpetas
 
-<details> 
-<summary>Repositorio (Click para más info.) </summary>
-Estructura general de las carpetas existentes en el repositorio.
-<pre><code> Reinforcement y Deep Learning
-│
-└─── Código
-│   │
-│   └─── Matlab
-|   |   |
-│   |   └─── Aldo Aguilar:
-|   |   |    Pruebas parámetros PSO
-|   |   |
-│   |   └─── Juan Cahueque:
-|   |   |    Pruebas APF
-|   |   |
-│   |   └─── Eduardo Santizo:
-|   |        PSO Toolbox y PSO Tuner
-|   |
-│   └─── Webots
-|       |
-│       └─── Aldo Aguilar:
-|       |    Simulación controladores E-Pucks y scripts de análisis de resultados.
-|       |
-│       └─── Juan Cahueque:
-|            Simulación caso A, B y C.
-|
-|
-└─── Literatura
-│   │
-│   └─── Lectures:
-|   |    Clases, presentaciones o lecciones
-|   |
-│   └─── Libros
-|   |
-│   └─── Papers
-│   |   │
-│   |   └─── Artificial Potential Fields
-|   |   |
-│   |   └─── Interpolaciones
-|   |   |
-│   |   └─── Machine Learning
-|   |   |
-│   |   └─── Robótica
-|   |   |
-│   |   └─── Swarm Intelligence
-|   |
-|   |
-│   └─── Tesis Previas:
-|   |    PDFs de trabajos de graduación y protocolos previos.
-|   |
-│   └─── Referencias Bibtex:
-|        Archivo .bib con las referencias a toda la literatura.
-|
-|
-└─── Notas:
-|    Imágenes y documentos varios con notas sobre el proyecto.
-|
-|
-└─── Reporte:
-|    Documentos asociados con la redacción del reporte final de tesis y el protocolo.
-|
-|
-└─── Media:
-     Imágenes y GIFs utilizados en el Readme.
-</code></pre>
-</details><br/>
-
-<details> 
-<summary>Tesis Eduardo Santizo (Click para más info.) </summary>
-Estructura para la carpeta que contiene el código de Matlab de la tesis "Reinforcement y Deep Learning en Aplicaciones de Robótica de Enjambre" realizada por Eduardo Santizo.
-<pre><code>Eduardo Santizo
+```
+Swarm-Robotics-Toolbox
 │
 └─── Deep PSO Tuner
 │   │
@@ -183,8 +104,7 @@ Estructura para la carpeta que contiene el código de Matlab de la tesis "Reinfo
 |
 └─── SR_Toolbox:
      Script principal del SR Toolbox.
-</code></pre>
-</details>
+```
 
 ## Antecedentes
 
