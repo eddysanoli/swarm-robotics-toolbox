@@ -1,0 +1,228 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.002541470536520174 -0.8847778220316664 -0.4660061658051456 3.131942054610735
+  position 0.3064628584781135 13.661302512906602 -8.779275239158125
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 10 10
+  wallHeight 0.5
+}
+SolidPipe {
+  translation -3.89308 0.515 0.272506
+  height 1
+  radius 0.2
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/stone.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation 3.87783 0.515 2.32432
+  name "pipe(2)"
+  height 1
+  radius 0.2
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/stone.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -1.86207 0.515 1.92661
+  name "pipe(4)"
+  height 1
+  radius 0.2
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/stone.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation 1.77699 0.515 3.73896
+  name "pipe(1)"
+  height 1
+  radius 0.2
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/stone.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -3.16268 0.515 -2.04133
+  name "pipe(3)"
+  height 1
+  radius 0.2
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/stone.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation 4.27577 0.515 -0.0502961
+  name "pipe(5)"
+  height 1
+  radius 0.2
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/stone.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation 2.55478 0.515 -2.40183
+  name "pipe(6)"
+  height 1
+  radius 0.2
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/stone.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation 1.29808 0.515 -4.01045
+  name "pipe(7)"
+  height 1
+  radius 0.2
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/stone.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation 3.86945 0.515 -3.50636
+  name "pipe(8)"
+  height 1
+  radius 0.2
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/stone.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -1.73628 0.515 -3.63163
+  name "pipe(9)"
+  height 1
+  radius 0.2
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/stone.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+Pioneer3dx {
+  translation -3.5 0.0975 -3.5
+  rotation 0 1 0 3.14159
+  controller "ControladorMatlab"
+  extensionSlot [
+    Camera {
+      translation 0 0.15 -0.175
+    }
+    GPS {
+    }
+    Compass {
+    }
+  ]
+}
+StoneBench {
+  translation -2.5 0 0
+  rotation 0 1 0 1.5707996938995747
+}
+StoneBench {
+  translation 2.46656 0 -0.0354583
+  rotation 0 1 0 1.5707996938995747
+  name "stone bench(2)"
+}
+StoneBench {
+  translation 0 -3.55271e-15 2.5
+  name "stone bench(1)"
+}
+StoneBench {
+  translation 0 -1.24345e-14 -2.5
+  name "stone bench(3)"
+}
+Chair {
+  translation 4.15007 0 4.04053
+  rotation 0 1 0 2.35619
+}
+Rock17cm {
+  translation -2.5 -3.55271e-15 3.5
+  name "rock 17 cm(1)"
+}
+Rock17cm {
+  translation -3 -3.55271e-15 4.5
+  name "rock 17 cm(2)"
+}
+Rock17cm {
+  translation -4 -3.55271e-15 4.5
+  name "rock 17 cm(3)"
+}
+Rock17cm {
+  translation -4.5 -3.55271e-15 3.5
+  name "rock 17 cm(4)"
+}
+PottedTree {
+  translation -3.5 0 3.5
+}
+LandscapePainting {
+  translation 0 0.5 4.95
+  rotation 0 1 0 3.14159
+}
+Apple {
+  translation 4.12449 0.55 4.02305
+}
+Fountain {
+  height 2
+}

@@ -1,0 +1,48 @@
+{
+  "_schemaVersion": "1.0.0",
+  
+  "CostFunction":
+  {
+     "inputs":
+     [
+        {"name":"X", "kind":"required", "type":["numeric"], "purpose":"Posiciones X,Y de partícula"},
+        {"name":"FunctionName", "kind":"required", "type":["string", "choices={'Schaffer F6','Sphere','Banana','Booth','Ackley','Rastrigin','Levy N13','Dropwave','Himmelblau','APF','Jabandzic'}"], "purpose":"Función de costo a utilizar"},
+        {"name":"XObs", "kind":"ordered", "type":["numeric"], "purpose":"Coords. X de vértices de obstáculos"},
+		{"name":"YObs", "kind":"ordered", "type":["numeric"], "purpose":"Coords. Y de vértices de obstáculos"},
+		{"name":"PosMin", "kind":"ordered", "type":["numeric"], "purpose":"Extremo más pequeño de la mesa de robotat"},
+		{"name":"PosMax", "kind":"ordered", "type":["numeric"], "purpose":"Extremo más grande de la mesa de robotat"},
+		{"name":"Meta", "kind":"ordered", "type":["numeric"], "purpose":"Vector fila con coordenadas de punto meta"},
+		{"name":"PuckPosicion", "kind":"ordered", "type":["numeric"], "purpose":"Posición de los robots diferenciales en el robotat"},
+        {"name":"ModoAPF", "kind":"namevalue", "type":["string", "choices={'Choset','Default'}"],"purpose":"Forma de calcular campo atractor y repulsor"},
+        {"name":"ComportamientoAPF", "kind":"namevalue", "type":["char", "choices={'Aditivo  (Recomendado)','Multiplicativo'}"], "purpose":"Forma de integrar campo repulsivo y atractivo"}
+     ]
+  },
+  
+  "CostFunction":
+  {
+     "inputs":
+     [
+        {"name":"X", "kind":"required", "type":["numeric"], "purpose":"Posiciones X,Y de partícula"},
+        {"name":"FunctionName", "kind":"required", "type":["string", "choices={'Schaffer F6','Sphere','Banana','Booth','Ackley','Rastrigin','Levy N13','Dropwave','Himmelblau','APF','Jabandzic'}"], "purpose":"Función de costo a utilizar"},
+        {"name":"EnvironmentParams", "kind":"ordered", "type":["row"], "purpose":"Parámetros relevantes al entorno utilizados para calcular la función de costo"}
+     ]
+  },
+  
+  
+  "PSO.SetRestricciones":
+  {
+     "inputs":
+     [
+        {"name":"Restricciones", "kind":"required", "type":["string", "choices={'Inercia','Constriccion','Mixto'}"], "purpose":"Tipo de restricción utilizada para el algoritmo PSO"},
+		{"name":"PosMin", "kind":"required", "type":["numeric"], "purpose":"Extremo más pequeño de la mesa de robotat"},
+		{"name":"PosMax", "kind":"required", "type":["numeric"], "purpose":"Extremo más grande de la mesa de robotat"},
+		{"name":"Wmax", "kind":"namevalue", "type":["numeric"], "purpose":"Default: 0.9"},
+		{"name":"Wmin", "kind":"namevalue", "type":["numeric"], "purpose":"Default: 0.4"},
+        {"name":"Chi", "kind":"namevalue", "type":["numeric"], "purpose":"Default: 1"},
+		{"name":"Phi1", "kind":"namevalue", "type":["numeric"], "purpose":"Default: 2.05"},
+		{"name":"Phi2", "kind":"namevalue", "type":["numeric"], "purpose":"Default: 2.05"},
+		{"name":"Kappa", "kind":"namevalue", "type":["numeric"], "purpose":"Default: 1"},
+		{"name":"W", "kind":"namevalue", "type":["numeric"], "purpose":"Inercia. Default: 1"}
+     ]
+  }
+}

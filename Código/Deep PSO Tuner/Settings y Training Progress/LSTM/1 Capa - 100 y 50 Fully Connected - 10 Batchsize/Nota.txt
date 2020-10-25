@@ -1,0 +1,1 @@
+Modelo relativamente exitoso. Incluso permite minimizar funciones de costo que nunca ha visto. El único detalle es que para que funcione se debe desactivar su control sobre la inercia.

@@ -1,0 +1,1 @@
+Se intentó bajar el número de neuronas de 150 a 120 en la red LSTM para observar si eso mejoraría el performance. Y... nope. No mejoró. De hecho ahora está peor que antes. Las partículas ya no solo se quedan flotando alrededor de la meta, sino que ahora si se comienzan a disparar hacia las esquinas. 

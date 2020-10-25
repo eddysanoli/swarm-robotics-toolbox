@@ -1,0 +1,1 @@
+Mejora clara por sobre el batch size de 30. Ahora incluso es capaz de trabajar sobre una única muestra y permite que algoritmos incluso con 10 partículas converjan eventualmente

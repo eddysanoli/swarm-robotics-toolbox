@@ -1,0 +1,1 @@
+Mejora clara por sobre el batch size de 10. Ya no diverge como en el caso anterior.
